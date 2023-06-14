@@ -3,11 +3,7 @@
 `partition.py` is taken from [NIID-Bench](https://github.com/Xtra-Computing/NIID-Bench  and related to the paper [Federated Learning on Non-IID Data Silos: An Experimental Study](https://arxiv.org/pdf/2102.02079.pdf).
 
 
-It can be used to divide tabular datasets (csv format) into multiple files using our non-IID partitioning strategies. Column `Class` in the header is recognized as label. 
-
-In our case, we have taken as example this [dataset](https://www.kaggle.com/datasets/aryarishabh/of-genomes-and-genetics-hackerearth-ml-challenge), imported as `train.csv` and `test.csv` in this directory. This dataset should not be used as is in our work, because it does not give good results even in the case of a centralized learning algorithm like SVM.  
-
-
+It can be used to divide tabular datasets (csv format) into multiple files using non-IID partitioning strategies. Column `Class` in the header is recognized as label. 
 
 ## Label Distribution Skew
 
@@ -54,7 +50,7 @@ We can check labels distribution in each parition by using `check_parition_ipynb
 
 ## Citation
 
-If you find this repository useful, please cite our paper:
+If you find this repository useful, please cite paper:
 
 ```         
 @inproceedings{li2022federated,
