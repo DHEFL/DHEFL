@@ -1,6 +1,6 @@
 # NONIID DATASET
 
-`partition.py` is taken from [NIID-Bench](https://github.com/Xtra-Computing/NIID-Bench  and related to the paper [Federated Learning on Non-IID Data Silos: An Experimental Study](https://arxiv.org/pdf/2102.02079.pdf).
+`partitionMNIST.py` is taken from [NIID-Bench](https://github.com/Xtra-Computing/NIID-Bench  and related to the paper [Federated Learning on Non-IID Data Silos: An Experimental Study](https://arxiv.org/pdf/2102.02079.pdf).
 
 
 It can be used to divide tabular datasets (csv format) into multiple files using non-IID partitioning strategies. Column `Class` in the header is recognized as label. 
@@ -34,7 +34,7 @@ The default value of `noise` is 0 unless stated. We list the way to get our data
 
 ## Usage
 
-Here is one example to run this code (see `partition_to_file.sh`):
+Here is one example to run this code (see `partitionMNIST.sh`):
 
 ```         
 python partition.py --n_parties=10 \
@@ -46,7 +46,7 @@ python partition.py --n_parties=10 \
 
 ```
 
-We can check labels distribution in each parition by using `check_parition_ipynb` script.
+We can check labels distribution in each parition by using `check_parition.ipynb` script.
 
 ## Citation
 
