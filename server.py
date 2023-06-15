@@ -26,7 +26,7 @@ def get_evaluate_fn(model: LinearSVC):
     """Return an evaluation function for server-side evaluation."""
 
     # Load test data here to avoid the overhead of doing it in `evaluate` itself
-    test_data = pd.read_csv('MNIST/scaledtest.csv')
+    test_data = pd.read_csv('non-IID_MNIST/MNIST/scaledtest.csv')
     X_test, y_test = test_data.loc[:, 'pixel1':],test_data.loc[:, 'label']
     
     X_test = scale(X_test)

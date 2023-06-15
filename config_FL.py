@@ -3,7 +3,7 @@ def num_client():
 
 def sys_mode():
     # FL with Encryption : True / Normal FL : False
-    return False
+    return True
 def nb_round():
     return 1000
 

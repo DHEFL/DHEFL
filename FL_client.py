@@ -74,8 +74,8 @@ if __name__ == "__main__":
     indice = args.partition
     
     # Load dataset
-    train_data = pd.read_csv('MNIST/'+str(config_FL.num_client())+'clients/client'+str(indice)+'.csv') 
-    test_data = pd.read_csv('MNIST/scaledtest.csv')
+    train_data = pd.read_csv('non-IID_MNIST/MNIST/'+str(config_FL.num_client())+'clients/client'+str(indice)+'.csv') 
+    test_data = pd.read_csv('non-IID_MNIST/MNIST/scaledtest.csv')
 
     X_train, y_train = train_data.loc[:, 'pixel1':],train_data.loc[:, 'label']
     X_test, y_test = test_data.loc[:, 'pixel1':],test_data.loc[:, 'label']
