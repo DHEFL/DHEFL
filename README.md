@@ -1,7 +1,7 @@
 ## Requirements
--[Python 3] (https://www.python.org/downloads/)
--[flwr] (https://github.com/adap/flower)
--[scikit-learn] (https://scikit-learn.org/stable/)
+-[Python 3](https://www.python.org/downloads/)
+-[flwr](https://github.com/adap/flower)
+-[scikit-learn](https://scikit-learn.org/stable/)
 ## Installation
 
 Clone the repository:
