@@ -1,5 +1,5 @@
 def num_client():
-    return 80
+    return 10
 
 def sys_mode():
     # FL with Encryption : True / Normal FL : False
