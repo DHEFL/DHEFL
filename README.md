@@ -1,3 +1,7 @@
+## Requirements
+- Python 3
+- flwr 
+- scikit-learn 
 ## Installation
 
 Clone the repository:
