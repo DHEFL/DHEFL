@@ -1,0 +1,1 @@
+Download MNIST datasset from https://www.kaggle.com/code/anushkabhadra/fashion-mnist-svm-90-6-accuracy/input
